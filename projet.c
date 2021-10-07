@@ -63,7 +63,7 @@ int main(void)
 
 	for (int i = 0;  i < 3; i++){  // refaire 3 fois la requete 
 
-    char categorie = get_char("choissier votre film  dite Y OU N "); //L'utilisateur peut dire si oui ou non il souhaite aller voir le film proposé.
+     char categorie = get_char("choissier votre film  dite Y OU N "); //L'utilisateur peut dire si oui ou non il souhaite aller voir le film proposé.
 
 
 	if (( categorie == 'Y' || categorie == 'y') || (categorie == 'N' && categorie == 'n' )) //Si elle aime le film mais oui ou non

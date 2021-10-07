@@ -29,34 +29,37 @@ int main(void)
 {
 
 
-    int film = get_int("donner votre age pour le film : ");
+    int film = get_int("donner votre age pour le film : ");//entrer sont age
     
-    const char filmCategorieEnfant[0]= {"paw patrol la pat'Patrouille","bienvenue loud","avatar dernier maître"};
-    const char filmCategorieAdos  [1]= {"13 reasons why","Gossip Girl","teen wolf"};
-    const char filmCategorieAdulte[2]= {"the shining","la nonne","conjuring"};
+    const string filmCategorieEnfant[3]= {"paw patrol la pat'Patrouille","bienvenue loud","avatar dernier maître"};//catégorie (filmCategorieEnfant),à un tableau de données (trois films par catégorie).
+    const string filmCategorieAdos  [3]= {"13 reasons why","Gossip Girl","teen wolf"};//catégorie (filmCategorieAdos),à un tableau de données (trois films par catégorie)
+    const string filmCategorieAdulte[3]= {"the shining","la nonne","conjuring"};//catégorie ( filmCategorieAdulte),à un tableau de données (trois films par catégorie)
 
 
 
 	
-
-	if( filmCategorieEnfant[0] < 11)
+	
+ 	
+	if( film < 11)//Si elle a moins de 11 ans
 	{
-		printf("elle peut aller voir Films Categorie Enfant\n");
+		printf("elle peut aller voir Films Categorie Enfant\n");// elle peut aller voir Films Categorie Enfant
 	}
-	else if( filmCategorieAdos[1] >= 11 && filmCategorieAdos[1] <= 17)
+	else if( film <= 17)//Si elle a entre 11 et 17
 	{
-		printf("elle peut aller voir Films Categorie Ados\n");
+		printf("elle peut aller voir Films Categorie Ados\n");//elle peut aller voir Films Categorie Ados
 	}
-	else if( filmCategorieAdulte[2] >= 18)
+	else if( film >= 18)//Si elle a plus de 18 ans
 	{
-		printf("elle peut aller voir Films Categorie Adulte\n");
+		printf("elle peut aller voir Films Categorie Adulte\n");//elle peut aller voir Films Categorie Adulte
 	}
 	else
 	{
 		printf("erreur\n");
+	
 	}
 
 }
+
 
 
 

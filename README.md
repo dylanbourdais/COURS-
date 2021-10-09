@@ -1,1 +1,5 @@
-# projet-c
+# COURS
+
+projet.c
+math.c
+

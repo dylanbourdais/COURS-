@@ -39,11 +39,11 @@ int main(void)
     double BC;
     scanf("%lf", &BC); // taper la longeur BC
     
-    AB *= AB; // AB fois 
-    BC *= BC; // BC fois
+    AB *= AB; // AB fois le nombre
+    BC *= BC; // BC fois le nombre
     
 
-    double total = sqrt(AB + BC); // racine carre plus AB fois + BC fois 
+    double total = sqrt(AB + BC); // racine carre  AB + BC 
 
     printf(" l'hypoténuse est de %.2f cm \n", total); // le resultat  
 }

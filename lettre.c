@@ -1,6 +1,7 @@
 #include <stdio.h> // librairie stdio
 #include <cs50.h> //librairie cs50
 
+// mon code est le bute d'aider pour savoir combien de timbre pour sa lettre
 
 int main(void)
 {

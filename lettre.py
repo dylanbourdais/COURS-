@@ -1,6 +1,6 @@
 gramme = int(input("Combien de gramme votre lettre : ")) # variable gramme , ecrire combien gramme votre lettre , et demande utulisateur
 
-# mon code est le bute d'aider pour savoir combien de timbre pour sa lettre
+# mon code est le bute d'aider pour savoir combien de timbre pour la lettre
 
 if gramme <=20: # si gramme est inferieur 20 gramme alors
 

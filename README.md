@@ -9,3 +9,5 @@ exerc  4.c
 exerc  1.py
 exerc 2.py
 exerc  3.py
+lettre.c
+lettre.py
